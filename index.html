@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<meta charset="utf-8" />
+		<meta name = "viewport" content = "initial-scale = 1.0">
+		<link rel="icon" type="image/png" href="favicon.png">
+    	<title>Greg Mathews - Designer/Developer</title>
+    	<link rel="stylesheet" type="text/css" href="style.css" />
+    	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    	<script src="script.js" type="text/javascript"></script>
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-11027050-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+    </head>
+    <body>
+        <header>
+            <h1>Greg Mathews</h1></br>
+            <h2>Designer/Developer</h2>
+            <ul>
+                <a href="#Home"><li class="active"><div class="crop"><img class="home" src="home.png" alt="home" /></div>Home</li></a>
+                <a href="#Blog"><li id="margin-less"><div class="crop"><img class="blog" src="blog.png" alt="blog" /></div>Blog</li></a>
+                <a href="#Work"><li><div class="crop"><img class="work" src="work.png" alt="work" /></div>Work</li></a>
+                <a href="#Email"><li><div class="crop"><img class="contact" src="contact.png" alt="contact" /></div>Email</li></a>
+            </ul>
+        </header>
+        <div id="content">
+            <article id="home">
+                <div class="frame">
+                    <img src="me.jpg" alt='Picture of Greg Mathews' />
+                </div>
+                <div class="indent">
+                        <h1>I am Greg Mathews!</h1>
+                        <p>I am currently going to San Jose State University for a degree in Software Engineering. I enjoy working on startups and side projects! If you would like to check out some of my design you can do that here: <a href="http://dribbble.com/gregsqueeb">dribbble</a>. Also, here is my <a href="http://facebook.com/gregsqueeb">facebook</a> and <a href="http://twitter.com/gregsqueeb">twitter</a>.</p>
+                </div>
+            </article>
+            <article id="blog">
+                <iframe src="http://gregsdesignaday.tumblr.com"></iframe>
+            </article>
+            <article id="work">
+				<h1>Design</h2>
+				<div class="projects">
+    				<div class="project">
+    	                <div class="frame">
+    	                    <img src="Icons.png" alt='cleanicons preview' />
+    	                    <border></border>
+    	                </div>
+    					<div class="indent">
+    						<h1><a href="http://cleanicons.com">cleanicons</a></h1>
+    						<p>I made this icon set! I also made the website! 62 icons in PSD, SVG, and PNG. Made in around the month as a fun project to try to make some cash!</p>
+    					</div>
+    				</div>
+    				<div class="project">
+    	                <div class="frame">
+    	                    <img src="wepay.png" alt='WePay landing page' />
+    	                    <border></border>
+    	                </div>
+    					<div class="indent">
+    						<h1><a href="http://WePay.com">WePay</a></h1>
+    						<p>Part-Time Marketing Designer. Worked on Landing pages, A/B testing, and I made a LED billboard that went up on 101!</p>
+    					</div>
+    				</div>
+    			</div> <!-- End Design Projects -->
+				<h1>Development</h1>
+				<div class="projects">
+    				<div class="project">
+    	                <div class="frame">
+    	                    <img src="goodreads.png" alt='Goodreads cast your friends' />
+    	                    <border></border>
+    	                </div>
+    					<div class="indent">
+    						<h1><a href="http://Goodreads.com">Goodreads</a></h1>
+    						<p>Summer Software Engineering Intern. I fixed a lot of bugs and I made a feature to cast your friends in a book which then posts to those friends walls.</p>
+    					</div>
+    				</div>
+    				<div class="project">
+    	                <div class="frame">
+    	                    <img src="testtme.png" alt='Testt.Me sign-up page' />
+    	                    <border></border>
+    	                </div>
+    					<div class="indent">
+    						<h1><a href="http://testt.me">Testt.me</a></h1>
+    						<p>A study tool for students where you can post your old tests for the next students that will take that class. Designed and developed by me!</p>
+    					</div>
+    				</div>
+    			</div> <!-- End Development Projects -->
+            </article>
+            <article id="email">
+                <h1>Contact Me!</h1>
+                <div id="form">
+                    <form method="post" action="submit.php" id="contact-us">
+                        <div id="contact-us-message"></div>
+                        <div class="input-box">
+                            <label>Name</label>
+                            <input type="text" name="name" />
+                        </div>
+                        <div class="input-box">
+                            <label>Email</label>
+                            <input type="text" name="email" />
+                        </div>
+                        <div class="input-box">
+                            <label>Message</label>
+                            <textarea name="message"></textarea>
+                        </div>
+                        <div class="submit">
+                            <input type="submit" value="Submit" />
+                        </div>
+                    </form>
+                </div>
+                <div id="others">
+                    <p>Email: <a href="mailto:gregdmathews@gmail.com">gregdmathews@gmail.com</a></p>
+                    <p>Twitter: <a href="http://twitter.com/gregsqueeb">@gregsqueeb</a></p>
+                    <p>Facebook: <a href="http://facebook.com/gregsqueeb">facebook.com/gregsqueeb</a></p>
+                    <p>Dribbble: <a href="http://dribbble.com/gregsqueeb">dribbble.com/gregsqueeb</a></p>
+                </div>
+            </article>
+        </div>
+    </body>
+</html>

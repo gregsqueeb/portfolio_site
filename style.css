@@ -1,0 +1,577 @@
+html{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+}
+html, body, header{
+    height: 100%;
+}
+body{
+    background: #fafafa;
+    margin: 0;
+    position: relative;
+    overflow: auto;
+    min-height: 500px;
+}
+h1, h2{
+    float: left;
+    display: inline-block;
+}
+h1, h2, li, p, a{
+    color: #5f5f5f;
+}
+h1, h2, li{
+    font-weight: normal;
+    margin: 0;
+    text-shadow: 0px 1px 0px #ffffff;
+    filter: dropshadow(color=#ffffff, offx=0, offy=1);
+}
+h1{
+    line-height: 24px;
+    margin: 0;
+}
+header h1, h2{
+    padding: 0 15px;
+    margin: 0 0 6px 0;
+}
+h2{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 12px;
+    margin: 9px 0 15px;
+}
+p{
+    margin: 0;
+}
+a{
+    color: #4ed182;
+    text-decoration: none;
+}
+/* Sidebar */
+
+header{
+    background:#f3f3f3 url('background.png');
+    -moz-box-shadow:    3px -3px 5px 0px #e9e9e9;
+    -webkit-box-shadow: 3px -3px 5px 0px #e9e9e9;
+    box-shadow:         3px -3px 5px 0px #e9e9e9;
+    float: left;
+    overflow: hidden;
+    padding: 15px 0;
+    width: auto;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+li{
+    border-bottom: 1px solid #e9e8e8;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 15px 15px 15px 0;
+    text-align: center;
+    width: auto;
+}
+li.active{
+    color: #4ed182;
+}
+li img{
+    float: left;
+}
+ul{
+    position: relative;
+    border-top: 1px solid #e9e8e8;
+    bottom: 0px;
+    list-style: none;
+    margin: 12px 0 0 0;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+}
+.active img{
+    margin-left: -40px;;
+}
+#margin-less.active img{
+    margin-left: -40px;;
+}
+
+.crop{
+    display: inline-block;
+    float:right;
+    height: 30px;
+    overflow: hidden;
+    width: 30px;
+}
+
+
+
+/* End Sidebar */
+
+/* General Content Area Styles */
+
+article{
+    margin: 0 auto;
+}
+article div h1{
+    line-height: 1em;
+}
+border{
+    -webkit-border-radius: 6px;
+    -moz-border-radius:    6px;
+    border-radius:         6px;
+    border: 1px solid #e9e8e8;
+    height: 385px;
+    width: 598px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#blog, #home, #email, #work{
+    margin: 30px auto;
+}
+#content{
+    height: 663px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 0 0 264px;
+}
+.indent{
+    border: 1px solid #e9e8e8;
+    background: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius:    6px;
+    border-radius:         6px;
+    -moz-box-shadow:    inset 0px 0px 5px 0px #e9e9e9;
+    -webkit-box-shadow: inset 0px 0px 5px 0px #e9e9e9;
+    box-shadow:         inset 0px 0px 5px 0px #e9e9e9;
+    margin: 15px 0;
+    overflow: hidden;
+    padding: 18px;
+    width: 562px; /*600 - 18padding - 18padding - 1pxborder - 1pxborder*/
+}
+.frame{
+    margin: 0 0 0 0;
+    position: relative;
+    overflow: hidden;
+    height: 387px;
+}
+.frame img{
+    -webkit-border-radius: 6px;
+    -moz-border-radius:    6px;
+    border-radius:         6px;
+}
+
+/* End General content area styles */
+
+/* Home styles */
+
+#home{
+    width: 600px;
+    overflow: hidden;
+}
+
+/* End Home Styles */
+
+/* Email Styles */
+
+input, input#email{
+    font-size: 16px;
+    height: 30px;
+    width: 200px;
+}
+input, textarea, input#email{
+    border: 1px solid #e9e8e8;
+    -webkit-border-radius: 6px;
+    -moz-border-radius:    6px;
+    border-radius:         6px;
+    float: left;
+    margin: 15px 0;
+}
+textarea{
+    height: 90px;
+    width: 430px;
+}
+#callback p{
+    margin-bottom: 30px;
+    width: 100%;
+}
+#email{
+    overflow: visible;
+    width: 468px;
+}
+#email, #blog{
+    font-size: 24px;
+}
+#email h1, #blog h1, #work h1{
+    font-size: 60px;
+    line-height: 48px;
+    margin: 0 0 30px 0;
+    width: 100%;
+}
+#email p{
+    float: left;
+    margin: 0 30px 0 0;
+    width: 204px;
+}
+#email p.formSubmit{
+    float: right;
+    font-size: 16px;
+    margin: 0 28px 0 0;
+}
+#email p.message{
+    width: 468px;
+}
+#others p{
+    margin: 0 0 15px 0;
+    width: 100%;
+}
+.indent h1, #work .project .indent h1{
+    font-size: 30px;
+	line-height: 26px;
+	margin: 0 0 0 0;
+    width: 100%;
+}
+.indent p{
+    float: left;
+    font-size: 24px;
+    margin: 18px 0 0px 0px;
+}
+.formSubmit input{
+    border: none;
+    color: #FAFAFA;
+    background: #4ed182;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: normal;
+    margin: 15px 0;
+}
+.red{
+    color: #4ed182;
+}
+
+/* End Email Styles */
+
+/* Blog Styles*/
+
+iframe{
+    border: none;
+    background: #fff;
+/*    -moz-box-shadow:    inset 0px 0px 5px 0px #e9e9e9;
+    -webkit-box-shadow: inset 0px 0px 5px 0px #e9e9e9;
+    box-shadow:         inset 0px 0px 5px 0px #e9e9e9;*/
+    height: 100%;
+    margin: 0 0 -6px 0;
+    width: 100%;
+}
+#blog{
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+/* End Blog Styles*/
+
+/* Work Styles */
+
+#work > h1{
+    background: #fff;
+    border: 1px solid #E9E8E8;
+    margin: 0 -30px 30px -30px;
+    padding: 31px;
+    text-align: center;
+}
+.projects{
+    margin: 0 auto;
+    width: 1230px;
+}
+.project{
+	float: left;
+	margin: 0;
+}
+.project:first-child{
+	margin: 0 30px 0 0;
+}
+
+/* End Work Styles */
+
+/* Responsive Shit */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)
+{
+	.active img{
+	    margin-left: -40px;;
+	}
+	.crop{
+	    display: block;
+		float: none;
+	    height: 30px;
+		margin: 0px auto 0 !important;
+	    overflow: hidden;
+	    width: 30px;
+	}
+	header{
+	    background:#f3f3f3 url('background.png');
+	    -moz-box-shadow:    3px 3px 5px 0px #e9e9e9;
+	    -webkit-box-shadow: 3px 3px 5px 0px #e9e9e9;
+	    box-shadow:         3px 3px 5px 0px #e9e9e9;
+	    overflow: hidden;
+	    padding: 15px 0;
+	    width: 100%;
+		height: auto;
+	    position: relative;
+		margin-bottom: 30px;
+		z-index: 100;
+	}
+	html, body, header{
+	    height: auto;
+	}
+
+	header h2{
+		float: left;
+		width: 100%;
+	}
+	li.active{
+	    color: #4ed182;
+	}
+	li img{
+	    float: left;
+	}
+	li{
+		border: none;
+		float: left;
+		font-size: 16px;
+		list-style: none;
+		line-height: 18px;
+		margin: 0 0 0 15px;
+		padding: 0;
+		text-align: center;
+		width: 21%;
+	}
+	li .crop{
+		margin-left: 15px;
+	}
+	header li:first-child{
+	    margin: 0;
+	}
+	ul{
+		margin: 0;
+		padding: 0;
+	}
+	ul{
+	    position: relative;
+	    border-top: none;
+	    bottom: 0px;
+	    list-style: none;
+	    margin: 0;
+	    overflow: hidden;
+	}
+	
+	#content{
+		font-size: 16px !important;
+		margin-top: 171px !important;
+		padding: 0 !important;
+		width: 100%;
+	}
+	html body #content{
+		height: 423px;
+	}
+	.indent p, .indent h1{
+		font-size: 16px !important;
+		line-height: 18px;
+	}
+	#content img, .frame{
+		width: 300px !important;
+	}
+	.frame{
+		height: 193px !important;
+	}
+	.indent{
+			width: 262px !important; /* 300 - padding */
+	}
+	.projects{
+		width: 300px !important;
+	}
+	border{
+		height: 191px;
+		width: 298px;
+	}
+	#email h1, #blog h1, #work h1{
+	    font-size: 30px !important;
+	    line-height: 24px !important;
+	}
+	label{
+		font-size: 16px;
+	}
+	input, textarea{
+		margin: 6px 0 !important;
+	}
+	input, input#email, #email #form p{
+		width: 135px  !important;
+	}
+	#email .emailinput{
+		margin: 0;
+	}
+	textarea, #email #form p.message{
+		width: 299px !important;
+	}
+	#email .formSubmit{
+		margin: 0 1px 15px 0 !important;
+	}
+	#email #others, #email #others #p{
+		font-size: 16px;
+		width: 300px !important;
+	}
+	#form{
+		overflow: hidden;
+		width: 306px;
+	}
+	#home, #email{
+		margin: 0 auto;
+		width: 300px !important;
+	}
+
+}
+
+@media all and (max-width: 897px)
+{
+	.active img{
+	    margin-left: -40px;;
+	}
+	.crop{
+	    display: block;
+		float: none;
+	    height: 30px;
+		margin: 0px auto 0 !important;
+	    overflow: hidden;
+	    width: 30px;
+	}
+	header{
+	    background:#f3f3f3 url('background.png');
+	    -moz-box-shadow:    3px 3px 5px 0px #e9e9e9;
+	    -webkit-box-shadow: 3px 3px 5px 0px #e9e9e9;
+	    box-shadow:         3px 3px 5px 0px #e9e9e9;
+	    overflow: hidden;
+	    padding: 15px 0;
+	    width: 100%;
+		height: auto;
+	    position: relative;
+		margin-bottom: 30px;
+		z-index: 100;
+	}
+	html, body, header{
+	    height: auto;
+	}
+
+	header h2{
+		float: left;
+		width: 100%;
+	}
+	li.active{
+	    color: #4ed182;
+	}
+	li img{
+	    float: left;
+	}
+	li{
+		border: none;
+		float: left;
+		font-size: 16px;
+		list-style: none;
+		line-height: 18px;
+		margin: 0 0 0 15px;
+		padding: 0;
+		text-align: center;
+		width: 21%;
+	}
+	li .crop{
+		margin-left: 15px;
+	}
+	ul{
+		margin: 0;
+		padding: 0;
+	}
+	ul{
+	    position: relative;
+	    border-top: none;
+	    bottom: 0px;
+	    list-style: none;
+	    margin: 0;
+	    overflow: hidden;
+	}
+	
+	#content{
+		font-size: 16px !important;
+		margin-top: 171px !important;
+		padding: 0 !important;
+		width: 100%;
+	}
+	html body #content{
+		height: 423px;
+	}
+	.indent p, .indent h1{
+		font-size: 16px !important;
+		line-height: 18px;
+	}
+	#content img, .frame{
+		width: 300px !important;
+	}
+	.frame{
+		height: 193px !important;
+	}
+	.indent{
+			width: 262px !important; /* 300 - padding */
+	}
+	.projects{
+		width: 300px !important;
+	}
+	border{
+		height: 191px;
+		width: 298px;
+	}
+	#email h1, #blog h1, #work h1{
+	    font-size: 30px !important;
+	    line-height: 24px !important;
+	}
+	label{
+		font-size: 16px;
+	}
+	input, textarea{
+		margin: 6px 0 !important;
+	}
+	input, input#email, #email #form p{
+		width: 135px  !important;
+	}
+	#email .emailinput{
+		margin: 0;
+	}
+	textarea, #email #form p.message{
+		width: 299px !important;
+	}
+	#email .formSubmit{
+		margin: 0 1px 15px 0 !important;
+	}
+	#email #others, #email #others #p{
+		font-size: 16px;
+		width: 300px !important;
+	}
+	#form{
+		overflow: hidden;
+		width: 306px;
+	}
+	#home, #email{
+		margin: 0 auto;
+		width: 300px !important;
+	}
+
+}
+@media all and (max-width: 1497px) and (min-width: 897px)
+{ 
+	.projects{
+        width: 630px;
+    }
+}
+@media all (min-width: 1497px)
+{ 
+	.projects{
+        width: 1230px;
+    }
+}
+
+/* End Responsive Shit */
