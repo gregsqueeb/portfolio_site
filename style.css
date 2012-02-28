@@ -47,7 +47,7 @@ a{
     text-decoration: none;
 }
 /* Sidebar */
-
+a img {border: 0;}
 header{
     background:#f3f3f3 url('background.png');
     -moz-box-shadow:    3px -3px 5px 0px #e9e9e9;
@@ -56,7 +56,7 @@ header{
     float: left;
     overflow: hidden;
     padding: 15px 0;
-    width: auto;
+    width: 234px;
     height: 100%;
     position: fixed;
     top: 0;
@@ -83,7 +83,7 @@ ul{
     list-style: none;
     margin: 12px 0 0 0;
     overflow: hidden;
-    width: 100%;
+    width: 234px;
     padding: 0;
 }
 .active img{
@@ -253,9 +253,6 @@ textarea{
 iframe{
     border: none;
     background: #fff;
-/*    -moz-box-shadow:    inset 0px 0px 5px 0px #e9e9e9;
-    -webkit-box-shadow: inset 0px 0px 5px 0px #e9e9e9;
-    box-shadow:         inset 0px 0px 5px 0px #e9e9e9;*/
     height: 100%;
     margin: 0 0 -6px 0;
     width: 100%;
